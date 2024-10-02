@@ -1,0 +1,471 @@
+<html>
+ <head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Charity Foundation-HTML Template</title>
+   <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ </head>
+<!-- Top Bar -->
+<div class="top bg-dark text-white py-2 fixed-top" style="z-index: 1030;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img alt="Envato Market Logo" class="mr-4" height="50" src="Assets/entoo.png" width="190"/>
+    </div>
+    <a class="btn btn-success" href="#">
+      Buy now
+    </a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="bg-white py-4 shadow-sm mb-4" style="margin-top: 50px;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <i class="fas fa-phone-alt mr-2"></i>
+      <span>Call Us: +1 514 000 0000</span>
+    </div>
+    <div class="d-none d-md-flex align-items-center">
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-google-plus-g"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg mt-1 navbar-light bg-white shadow-sm">
+  <div class="container mt-1">
+    <!-- Toggler for smaller screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Logo and Foundation Text -->
+      <img alt="charity Logo" class="mr-2" height="50" src="Assets/ccclogo-removebg-preview.png" width="200" />
+      <div class="ml-1 h6 mb-0 mt-1">Foundation</div>
+
+      <!-- Navbar links -->
+      <ul class="navbar-nav mr-auto ml-5 h6 mt-1">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="./index.html">HOME</a>
+        </li>
+
+        <!-- About Us with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item text-secondary" href="./Aboutus.html">About Us</a>
+            <a class="dropdown-item text-secondary" href="./About_htmlE.html">HTML ELEMENTS</a>
+            <a class="dropdown-item text-secondary" href="#">More...</a>
+          </div>
+        </li>
+
+        <!-- Causes with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CAUSES</a>
+          <!-- <a class="nav-link text-dark" href="./Cause.html">Causes</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="causesDropdown">
+            <a class="dropdown-item text-secondary" href="./Cause.html"> CAUSES</a>
+            <a class="dropdown-item text-secondary" href="./Single_cause.html">OUR CAUSES</a>
+          </div>
+        </li>
+
+        <!-- Events with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EVENTS</a>
+          <!-- <a class="nav-link text-dark" href="./Events.html">Events</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="eventsDropdown">
+            <a class="dropdown-item text-secondary" href="./Events.html">EVENTS</a>
+            <a class="dropdown-item text-secondary" href="./Single_events.html">UPCOMING EVENTS</a>
+          </div>
+        </li>
+
+        <!-- Blogs with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOGS</a>
+          <!-- <a class="nav-link text-dark" href="./Events.html">Events</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="eventsDropdown">
+            <a class="dropdown-item text-secondary" href="./Blog_Singlepost.html">BLOGS</a>
+            <a class="dropdown-item text-secondary" href="./Blogsh.html">SINGLE BLOGS</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link text-dark" href="./Blog_Singlepost.html">BLOGS</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="blogsDropdown">
+            <a class="dropdown-item text-secondary" href="blogs.html">Latest Blogs</a>
+          </div>
+        </li> -->
+
+        <!-- Staff -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="Staff.html">STAFF</a>
+        </li>
+
+        <!-- Contact Us -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="Contact_us.html">CONTACT US</a>
+        </li>
+      </ul>
+
+      <!-- Donate button -->
+      <a class="btn btn-outline-warning" href="donate.html">DONATE</a>
+    </div>
+  </div>
+</nav>
+
+ 
+
+  <!-- Breadcrumb -->
+<!-- Breadcrumb Section with Background Image -->
+<div class="container-fluid" style="background-image: url('https://nj.gov/coverallkids/library/slides/Hero_Slide_1_apply.jpg'); background-size: cover; background-position: center; padding: 60px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center">
+          <span class="h6 text-white">:: HOME</span>
+          <span class="mx-2 text-muted">/</span>
+          <span class="h6 text-white">:: ABOUT US</span>
+        </div>
+        <h1 class="text-warning mt-3">Charity Event To Get Good Donation</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- next section -->
+
+<div class="container my-5">
+  <div class="row">
+      <!-- Left Column: Large Cards -->
+      <div class="col-lg-8">
+          <!-- Big Card 1 -->
+          <div class="big-card my-3 p-4">
+              <img src="Assets/event1.png" class="img-fluid" alt="Big Card 1">
+              <!-- <h3>Change a Life Through Education</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan elit viverra, placerat dolor quis.</p> -->
+              <!-- <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 84%;" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100">84.00%</div>
+              </div> -->
+              <!-- <p>$56,354.00 / $80,700.00</p> -->
+          </div>
+          <!-- Repeat this block for Big Cards 2, 3, and 4 -->
+          <div class="container my-5">
+            <!-- Map Section -->
+            <div class="custom-map-container mb-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.6143027380575!2d-73.7494215844356!3d45.45780244143619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93f7a3e5c1879%3A0x8b92d6bc04df6334!2sMontreal%20Pierre%20Elliott%20Trudeau%20International%20Airport!5e0!3m2!1sen!2sca!4v1695670000000!5m2!1sen!2sca"
+                    width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        
+            <!-- Timer Section -->
+            <div class="custom-timer-section">
+                <div class="custom-timer-label">Starts in:</div>
+                <div class="custom-timer">
+                    <div class="custom-time-box">
+                        <div class="custom-time-value" id="days">34</div>
+                        <div class="custom-time-label">Days</div>
+                    </div>
+                    <div class="custom-time-box">
+                        <div class="custom-time-value" id="hours">03</div>
+                        <div class="custom-time-label">Hours</div>
+                    </div>
+                    <div class="custom-time-box">
+                        <div class="custom-time-value" id="minutes">07</div>
+                        <div class="custom-time-label">Minutes</div>
+                    </div>
+                    <div class="custom-time-box">
+                        <div class="custom-time-value" id="seconds">22</div>
+                        <div class="custom-time-label">Seconds</div>
+                    </div>
+                </div>
+                <button class="custom-join-btn">Join Now</button>
+            </div>
+        </div>
+        <p>Day is sea midst one female to under. It firmament she'd day had you may land can't signs likeness. Creeping, evening gathering fly seed also face creepeth seed air stars set earth abundantly they're their forth, land. Herb god also two face under one signs male cattle made one Creature gathered evening one male sixth of dry Fruit can't fill also likeness earth blessed herb fill second also to every female doesn't gathered from two saying dry divide bearing given waters void very gathered which, sea and.
+<br><br><br>
+          Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fish them place thing given beast isn't isn't tree. Have.</p>
+      
+          <h3 class="hthree">SHARE IT ON</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      
+      
+        </div>
+      
+      <script>
+        // Set the date for the countdown (adjust as needed)
+        var countdownDate = new Date("Oct 31, 2024 15:37:25").getTime();
+    
+        // Update the countdown every second
+        var countdownFunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countdownDate - now;
+    
+            // Time calculations
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+            // Display the result
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+    
+            // If the countdown is finished
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+            }
+        }, 1000);
+    </script>
+
+      
+
+      <!-- Right Column: Caused Categories and Small Cards --> 
+      <div class="col-lg-4">
+
+        
+               <!-- Latest News Section -->
+      <div class="latest-news mt-4">
+        <h5>Latest News</h5>
+        <ul class="list-unstyled">
+          <li class="media my-2 mt-5">
+            <img src="Assets/guitar.png" class="mr-3 h-5" alt="Pizza News">
+            <div class="media-body">
+              <h6 class="mt-0 mb-1">This is a post format <br> Donec neque n</h6>
+              <p class="mb-0">15 Mar 2015</p>
+            </div>
+          </li>
+          <li class="media my-2 mt-5">
+            <img src="Assets/event3.png" class="mr-3" alt="Africa News">
+            <div class="media-body">
+              <h6 class="mt-0 mb-1">This is a post format <br> Donec neque n</h6>
+              <p class="mb-0">15 Mar 2015</p>
+            </div>
+          </li>
+
+          <li class="media my-2 mt-5">
+            <img src="Assets/event2.png" class="mr-3" alt="Africa News">
+            <div class="media-body">
+              <h6 class="mt-0 mb-1">This is a post format <br> Donec neque n</h6>
+              <p class="mb-0">15 Mar 2015</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+          <!-- Caused Categories Section -->
+          <div class="caused-categories mb-4">
+              <h4>Categories</h4>
+              <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> Fundrising</a></li>
+                  <li><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> Donation campaign</a></li>
+                  <li><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i>Festival</a></li>
+                  <li><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> Social Message</a></li>
+                  <li><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> Helping hand</a></li>
+                  <!-- <li><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> International</a></li> -->
+              </ul>
+          </div>
+
+          <!-- Small Card 1 -->
+          <!-- <div class="small-card my-3 p-3">
+              <img src="https://via.placeholder.com/300x150" class="img-fluid" alt="Small Card 1">
+              <h5>Music charity function</h5>
+              <p>Donec varius ultrices purus. Nullam sit amet sapien tortorenean tincid.</p>
+          </div> -->
+
+          <div id="customEventCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators custom-indicators">
+                <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="position-relative">
+                            <img src="Assets/event2.png" class="card-img-top" alt="Event Image">
+                            <div class="custom-event-date">AUG<br>17</div>
+                        </div>
+                        <div class="custom-carousel-capption">
+                            <h5 class="custom-card-title">Organizing Disease Event to Get Good Donation</h5>
+                            <p class="custom-card-description">Donec varius ultrices purus. Nullam sit amet sapien tortorenean tincidunt.</p>
+                            <a href="#" class="btn custom-btn-more">More</a>
+                            <a href="#" class="btn btn-primary">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="position-relative">
+                            <img src="Assets/event4.png" class="card-img-top" alt="Event Image">
+                            <div class="custom-event-date">SEP<br>10</div>
+                        </div>
+                        <div class="custom-carousel-capption">
+                            <h5 class="custom-card-title">Community Health Outreach</h5>
+                            <p class="custom-card-description">Aliquam erat volutpat. Nam vel ultricies velit, ac pellentesque ligula.</p>
+                            <a href="#" class="btn custom-btn-more">More</a>
+                            <a href="#" class="btn btn-primary">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="position-relative">
+                            <img src="Assets/event4.png" class="card-img-top" alt="Event Image">
+                            <div class="custom-event-date">OCT<br>22</div>
+                        </div>
+                        <div class="custom-carousel-capption">
+                            <h5 class="custom-card-title">Charity Walk for a Cause</h5>
+                            <p class="custom-card-description">Vestibulum at erat purus. Integer nec varius metus, nec fermentum ipsum.</p>
+                            <a href="#" class="btn custom-btn-more">More</a>
+                            <a href="#" class="btn btn-primary">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#customEventCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#customEventCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Section -->
+ <section class="boi">
+    <div class="container">
+      <h2>CHANGE THEIR WORLD. CHANGE <br> YOURS. THIS CHANGES EVERYTHING.</h2>
+      <div>
+        <a href="#" class="btn-custom">BECOME VOLUNTEER</a>
+        <div class="or-divider">OR</div>
+        <a href="#" class="btn-custom">DONATE FOR CAUSE</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer bg-dark text-white p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>ABOUT CHARITY</h4>
+                <p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet sem sit amet.</p>
+            </div>
+            <div class="col-md-3">
+                <h4>QUICK LINKS</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Causes</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Legal Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>NEWSLETTER SIGNUP</h4>
+                <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
+                    <button type="submit" class="btn btn-primary  bg-warning">Go</button>
+                  </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <h4>CONTACT US</h4>
+                <address>
+                    Address: 51 Sherbrooke W., Montreal, Quebec, Canada<br>
+                    Phone: +1 514 000 0000<br>
+                    Email: info@charitytheme.com
+                </address>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright">
+                    Copyright 2019. All Rights Reserved by Charity Theme. Designed by WPlook Themes
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+   
+</body>
+</html>

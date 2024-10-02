@@ -1,0 +1,499 @@
+<html>
+ <head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Charity Foundation-HTML Template</title>
+   <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ </head>
+<!-- Top Bar -->
+<div class="top bg-dark text-white py-2 fixed-top" style="z-index: 1030;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img alt="Envato Market Logo" class="mr-4" height="50" src="Assets/entoo.png" width="190"/>
+    </div>
+    <a class="btn btn-success" href="#">
+      Buy now
+    </a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="bg-white py-4 shadow-sm mb-4" style="margin-top: 50px;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <i class="fas fa-phone-alt mr-2"></i>
+      <span>Call Us: +1 514 000 0000</span>
+    </div>
+    <div class="d-none d-md-flex align-items-center">
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-google-plus-g"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg mt-1 navbar-light bg-white shadow-sm">
+  <div class="container mt-1">
+    <!-- Toggler for smaller screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Logo and Foundation Text -->
+      <img alt="charity Logo" class="mr-2" height="50" src="Assets/ccclogo-removebg-preview.png" width="200" />
+      <div class="ml-1 h6 mb-0 mt-1">Foundation</div>
+
+      <!-- Navbar links -->
+      <ul class="navbar-nav mr-auto ml-5 h6 mt-1">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="./index.html">HOME</a>
+        </li>
+
+        <!-- About Us with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item text-secondary" href="./Aboutus.html">ABOUT US</a>
+            <a class="dropdown-item text-secondary" href="./About_htmlE.html">HTML ELEMENTS</a>
+            <a class="dropdown-item text-secondary" href="#">More...</a>
+          </div>
+        </li>
+
+        <!-- Causes with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CAUSES</a>
+          <!-- <a class="nav-link text-dark" href="./Cause.html">Causes</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="causesDropdown">
+            <a class="dropdown-item text-secondary" href="./Cause.html"> CAUSES</a>
+            <a class="dropdown-item text-secondary" href="./Single_cause.html">OUR CAUSES</a>
+          </div>
+        </li>
+
+        <!-- Events with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EVENTS</a>
+          <!-- <a class="nav-link text-dark" href="./Events.html">Events</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="eventsDropdown">
+            <a class="dropdown-item text-secondary" href="./Events.html"> EVENTS</a>
+            <a class="dropdown-item text-secondary" href="./Single_events.html">UPCOMING EVENTS</a>
+          </div>
+        </li>
+
+        <!-- Blogs with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOGS</a>
+          <!-- <a class="nav-link text-dark" href="./Events.html">Events</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="eventsDropdown">
+            <a class="dropdown-item text-secondary" href="./Blog_Singlepost.html">BLOGS</a>
+            <a class="dropdown-item text-secondary" href="./Blogsh.html">SINGLE BLOGS</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link text-dark" href="./Blog_Singlepost.html">BLOGS</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="blogsDropdown">
+            <a class="dropdown-item text-secondary" href="blogs.html">Latest Blogs</a>
+          </div>
+        </li> -->
+
+        <!-- Staff -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="Staff.html">STAFF</a>
+        </li>
+
+        <!-- Contact Us -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="Contact_us.html">CONTACT US</a>
+        </li>
+      </ul>
+
+      <!-- Donate button -->
+      <a class="btn btn-outline-warning" href="donate.html">DONATE</a>
+    </div>
+  </div>
+</nav>
+
+   
+
+  <!-- Breadcrumb -->
+<!-- Breadcrumb Section with Background Image -->
+<div class="container-fluid" style="background-image: url('https://nj.gov/coverallkids/library/slides/Hero_Slide_1_apply.jpg'); background-size: cover; background-position: center; padding: 60px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center">
+          <span class="h6 text-white">:: HOME</span>
+          <span class="mx-2 text-muted">/</span>
+          <span class="h6 text-white">:: ABOUT US</span>
+        </div>
+        <h1 class="text-warning mt-3">EVENTS</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- next section -->
+
+<div class="container mt-5">
+    <div class="row">
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 1" height="400" src="https://media.gettyimages.com/id/863105740/photo/childrens-sports-team-charity-drive-for-donations-local-disaster-relief.jpg?s=612x612&w=gi&k=20&c=ej0M6a9rpORvtKpqQ7eWpBgE8IkDPKBx0byyiGN5bsA=" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         MUSIC EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 7, 2018 at 2:00 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Varius donec ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel placerat purus porta nec.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 2" height="400" src="https://media.istockphoto.com/id/472165353/photo/little-girl-holding-bowl-at-soup-kitchen-or-food-bank.jpg?s=612x612&w=0&k=20&c=_25T4X2NL96SQmkZemBPSPo0n5azVrWOARl4JxuxeuU=" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         FOOD EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 5, 2018 at 4:30 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Subdue and blessed heaven green so one make dry of behold god yielding. Beginning third above lights Given hath very hath.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 3" height="400" src="https://cf.ltkcdn.net/charity/images/orig/285379-1600x1066-fun-easy-fundraising-ideas-kids-that-make-impact.jpg" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         CHARITY EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 3, 2018 at 1:10 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Creature make meat. So greater itself fly sixth green was wherein I Saw the divided that. Night gathered void set spirit void.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 4" height="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTY5IDaPzDVsnyPkg34G8mTnhry13nSbPgLg&s" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         MUSIC EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 7, 2018 at 2:00 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Varius donec ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel placerat purus porta nec.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 5" height="400" src="https://media.gettyimages.com/id/1195063548/photo/cheerful-girl-receives-food-donation-while-volunteering-in-food-bank.jpg?s=612x612&w=gi&k=20&c=PHogyUF9TurO-yh0vSdI5haHeE3BXpaytkg7UEpD8Js=" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         FOOD EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 5, 2018 at 4:30 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Subdue and blessed heaven green so one make dry of behold god yielding. Beginning third above lights Given hath very hath.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 6" height="400" src="https://www.shutterstock.com/image-photo/food-donation-portrait-child-park-600nw-2256153685.jpg" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         CHARITY EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 3, 2018 at 1:10 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Creature make meat. So greater itself fly sixth green was wherein I Saw the divided that. Night gathered void set spirit void.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 7" height="400" src="https://www.shutterstock.com/image-photo/happy-kid-supporting-box-humanitarian-600nw-2260134761.jpg" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         MUSIC EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 7, 2018 at 2:00 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Varius donec ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel placerat purus porta nec.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 8" height="400" src="https://media.istockphoto.com/id/624178566/photo/woman-receives-a-healthy-meal-at-soup-kitchen.jpg?s=612x612&w=0&k=20&c=oWT9Vghz7KHaQt0aRMcD9li4F2e8D59sAbBTThTL3vw=" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         FOOD EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 5, 2018 at 4:30 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Subdue and blessed heaven green so one make dry of behold god yielding. Beginning third above lights Given hath very hath.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4 event-card">
+      <div class="card">
+       <img alt="Event image 9" height="400" src="https://media.gettyimages.com/id/863105740/photo/childrens-sports-team-charity-drive-for-donations-local-disaster-relief.jpg?s=612x612&w=gi&k=20&c=ej0M6a9rpORvtKpqQ7eWpBgE8IkDPKBx0byyiGN5bsA=" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         CHARITY EVENT TO GET GOOD DONATION
+        </h5>
+        <div class="event-info">
+         <i class="fas fa-calendar-alt">
+         </i>
+         May 3, 2018 at 1:10 PM
+         <br/>
+         <i class="fas fa-map-marker-alt">
+         </i>
+         Montreal, QC.
+        </div>
+        <p class="card-text">
+         Creature make meat. So greater itself fly sixth green was wherein I Saw the divided that. Night gathered void set spirit void.
+        </p>
+        <a class="btn btn-more" href="#">
+         MORE
+        </a>
+        <a class="btn btn-facebook" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+ <!-- Section -->
+ <section class="boi">
+    <div class="container">
+      <h2>CHANGE THEIR WORLD. CHANGE <br> YOURS. THIS CHANGES EVERYTHING.</h2>
+      <div>
+        <a href="#" class="btn-custom">BECOME VOLUNTEER</a>
+        <div class="or-divider">OR</div>
+        <a href="#" class="btn-custom">DONATE FOR CAUSE</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer bg-dark text-white p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>ABOUT CHARITY</h4>
+                <p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet sem sit amet.</p>
+            </div>
+            <div class="col-md-3">
+                <h4>QUICK LINKS</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Causes</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Legal Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>NEWSLETTER SIGNUP</h4>
+                <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
+                    <button type="submit" class="btn btn-primary  bg-warning">Go</button>
+                  </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <h4>CONTACT US</h4>
+                <address>
+                    Address: 51 Sherbrooke W., Montreal, Quebec, Canada<br>
+                    Phone: +1 514 000 0000<br>
+                    Email: info@charitytheme.com
+                </address>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright">
+                    Copyright 2019. All Rights Reserved by Charity Theme. Designed by WPlook Themes
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+   
+</body>
+</html>

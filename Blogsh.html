@@ -1,0 +1,649 @@
+<html>     
+ <head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Charity Foundation-HTML Template</title>
+   <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ </head>
+<!-- Top Bar -->
+<div class="top bg-dark text-white py-2 fixed-top" style="z-index: 1030;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img alt="Envato Market Logo" class="mr-4" height="50" src="Assets/entoo.png" width="190"/>
+    </div>
+    <a class="btn btn-success" href="#">
+      Buy now
+    </a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="bg-white py-4 shadow-sm mb-4" style="margin-top: 50px;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <i class="fas fa-phone-alt mr-2"></i>
+      <span>Call Us: +1 514 000 0000</span>
+    </div>
+    <div class="d-none d-md-flex align-items-center">
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-google-plus-g"></i>
+      </a>
+      <a class="text-secondary mx-2" href="#">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg mt-1 navbar-light bg-white shadow-sm">
+  <div class="container mt-1">
+    <!-- Toggler for smaller screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Logo and Foundation Text -->
+      <img alt="charity Logo" class="mr-2" height="50" src="Assets/ccclogo-removebg-preview.png" width="200" />
+      <div class="ml-1 h6 mb-0 mt-1">Foundation</div>
+
+      <!-- Navbar links -->
+      <ul class="navbar-nav mr-auto ml-5 h6 mt-1">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="./index.html">HOME</a>
+        </li>
+
+        <!-- About Us with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item text-secondary" href="./Aboutus.html">ABOUT US</a>
+            <a class="dropdown-item text-secondary" href="./About_htmlE.html">HTML ELEMENTS</a>
+            <a class="dropdown-item text-secondary" href="#">More...</a>
+          </div>
+        </li>
+
+        <!-- Causes with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CAUSES</a>
+          <!-- <a class="nav-link text-dark" href="./Cause.html">Causes</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="causesDropdown">
+            <a class="dropdown-item text-secondary" href="./Cause.html"> CAUSES</a>
+            <a class="dropdown-item text-secondary" href="./Single_cause.html">OUR CAUSES</a>
+          </div>
+        </li>
+
+        <!-- Events with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EVENTS</a>
+          <!-- <a class="nav-link text-dark" href="./Events.html">Events</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="eventsDropdown">
+            <a class="dropdown-item text-secondary" href="./Events.html"> EVENTS</a>
+            <a class="dropdown-item text-secondary" href="./Single_events.html">UPCOMING EVENTS</a>
+          </div>
+        </li>
+
+        <!-- Blogs with dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOGS</a>
+          <!-- <a class="nav-link text-dark" href="./Events.html">Events</a> -->
+          <div class="dropdown-menu bg-dark" aria-labelledby="eventsDropdown">
+            <a class="dropdown-item text-secondary" href="./Blog_Singlepost.html">BLOGS</a>
+            <a class="dropdown-item text-secondary" href="./Blogsh.html">SINGLE BLOGS</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link text-dark" href="./Blog_Singlepost.html">BLOGS</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="blogsDropdown">
+            <a class="dropdown-item text-secondary" href="blogs.html">Latest Blogs</a>
+          </div>
+        </li> -->
+
+        <!-- Staff -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="Staff.html">STAFF</a>
+        </li>
+
+        <!-- Contact Us -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="Contact_us.html">CONTACT US</a>
+        </li>
+      </ul>
+
+      <!-- Donate button -->
+      <a class="btn btn-outline-warning" href="donate.html">DONATE</a>
+    </div>
+  </div>
+</nav>
+ 
+
+  <!-- Breadcrumb -->
+<!-- Breadcrumb Section with Background Image -->
+<div class="container-fluid" style="background-image: url('https://nj.gov/coverallkids/library/slides/Hero_Slide_1_apply.jpg'); background-size: cover; background-position: center; padding: 60px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center">
+          <span class="h6 text-white">:: HOME</span>
+          <span class="mx-2 text-muted">/</span>
+          <span class="h6 text-white">:: ABOUT US</span>
+        </div>
+        <h1 class="text-warning mt-3">Single post</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <!-- Main Content Section -->
+        <div class="col-md-8 mt-3">
+            <div class="post-wrapper">
+                <h2 class="post-title">Standard Post Format</h2>
+                <img src="Assets/blog1.png" alt="Post Image" class="post-image mb-3">
+                <div class="post-meta">
+                    <img src="Assets/smalblog.png" alt="Author Image">
+                    <span class="post-author">By Genelia | </span>
+                    <span class="post-date"><i class="bi bi-calendar"></i>⏰ 23 March 2018 | </span>
+                    <span class="post-comments"><i class="bi bi-chat"></i> 💭 3 | </span>
+                    <span class="post-likes"><i class="bi bi-heart"></i> ❤ 11 | </span>
+                </div>
+                <p class="post-content">
+                    Waters made blessed creature dry fish have creature wherein living also fill from air can't to and it. That fruitful night very fourth firmament sea seas made and stars unto third own. Lesser form place seasons is above seas you seed itself lesser brought. Greater.
+                    <br><br>
+
+All made, great fill to us our upon from won't doesn't very he lesser. It all own above very make, you'll. Deep Fruit meat subdue above saying for he is gathered that fowl and that spirit creepeth bring our so divide said very.
+                </p>
+                <a href="#" class="btn btn-outline-warning read-more-btn">Read More</a>
+
+                <div class="container image-text-section">
+                    <div class="image-box">
+                        <img src="Assets/childrean.png" class="img-fluid" alt="Children Image">
+                    </div>
+                    <div class="description-box">
+                        <p>Sea fifth was grass seasons one rule. Beginning earth them bearing. Them don't Green face seasons fowl gathering above created above kind. Sixth whose whose fruitful.</p>
+                    </div>
+                </div>
+                
+                <!-- Paragraph Section with Icons -->
+                <div class="container paragraph-section">
+                    <div class="row">
+                        <!-- Paragraph 1 -->
+                        <div class="col-md-6 col-sm-12">
+                            <div class="paragraph-box">
+                                <div class="icon-box">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <div class="paragraph-text">
+                                    <div class="paragraph-title">ACCESS TO INFORMATION</div>
+                                    <p>Subdue and blessed heaven green so one make dry of behold god yielding beginning third above lights Given hath very hath living creeping fish Creature.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Paragraph 2 -->
+                        <div class="col-md-6 col-sm-12">
+                            <div class="paragraph-box">
+                                <div class="icon-box">
+                                    <i class="fas fa-bell"></i>
+                                </div>
+                                <div class="paragraph-text">
+                                    <div class="paragraph-title">ALERTS</div>
+                                    <p>Make meat so greater itself fly sixth green was wherein I Saw the Beginning third above lights Given hath very hath living creeping fish Creature.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <!-- Paragraph 3 -->
+                        <div class="col-md-6 col-sm-12">
+                            <div class="paragraph-box">
+                                <div class="icon-box">
+                                    <i class="fas fa-hands-helping"></i>
+                                </div>
+                                <div class="paragraph-text">
+                                    <div class="paragraph-title">WE HELP CHILDREN</div>
+                                    <p>In over under beast seed He thing Second stars green there gathering living without greater image moving living signs fruit above heaven hath.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Paragraph 4 -->
+                        <div class="col-md-6 col-sm-12">
+                            <div class="paragraph-box">
+                                <div class="icon-box">
+                                    <i class="fas fa-flag"></i>
+                                </div>
+                                <div class="paragraph-text">
+                                    <div class="paragraph-title">WE DON'T HAVE BORDERS</div>
+                                    <p>Had two divide Great doesn't, evening form Beginning also saying, to that itself let spirit in. Lesser divided female have fill Which also you'll God.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bottom Section -->
+                <div class="container bottom-section">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan elit viverra, placerat dolor quis, pulvinar velit. Nsectetur adipiscing elit.</p>
+                </div>
+
+                <h3 class="hthree">SHARE IT ON</h3>
+                <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <div class="container">
+
+                    <!-- Author Section -->
+                    <div class="author-section">
+                        <img src="Assets/c0.png" class="author-img" alt="Author Image">
+                        <div class="author-details">
+                            <div class="author-name">VICTOR TIHAI (AUTHOR)</div>
+                            <div class="author-text">Tree image fly upon earth a let had, divided don't dominion isn't replenish him good under divide unto divide firmament, fowl gathered our.</div>
+                        </div>
+                    </div>
+                
+                    <!-- Comments Section -->
+                    <div class="comments-section">
+                        <div class="comment-heading">COMMENT (3)</div>
+                
+                        <!-- Comment 1 -->
+                        <div class="comment-box">
+                            <img src="Assets/c1.png" class="comment-img" alt="Commenter 1">
+                            <div class="comment-details">
+                                <div class="comment-author">DARBAR ISHAN</div>
+                                <button class="comment-reply-btn">REPLY</button>
+                                <div class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan elit viverra, dgadg placerat dolor quis, pulvinar velit. Nsectetur adipiscing elit.</div>
+                            </div>
+                        </div>
+                
+                        <!-- Comment 2 -->
+                        <div class="comment-box">
+                            <img src="Assets/c2.png" class="comment-img" alt="Commenter 2">
+                            <div class="comment-details">
+                                <div class="comment-author">CHETAN AN</div>
+                                <button class="comment-reply-btn">REPLY</button>
+                                <div class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan elit viverra, placerat dolor quis, pulvinar velit. Nsectetur adipiscing elit.</div>
+                            </div>
+                        </div>
+                
+                        <!-- Comment 3 -->
+                        <div class="comment-box">
+                            <img src="Assets/c3.png" class="comment-img" alt="Commenter 3">
+                            <div class="comment-details">
+                                <div class="comment-author">JANE DOE</div>
+                                <button class="comment-reply-btn">REPLY</button>
+                                <div class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan elit viverra, placerat dolor quis, pulvinar velit. Nsectetur adipiscing elit.</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+  
+                <!-- Add a Review Form -->
+        <h5 class="mb-4">LEAVE A REVIEW</h5>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="comment" class="form-label">Comment</label>
+            <textarea class="form-control" id="comment" rows="4" placeholder="Write your comment"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Review</button>
+        </form>
+             
+  
+           
+  
+  
+              
+            
+  
+            
+  
+            </div>
+        </div>
+  
+        <!-- Sidebar Section -->
+        <div class="col-md-4 sidebar mt-5">
+            <!-- Popular Posts Section -->
+            <div class="popular-posts">
+                <h5>Popular Posts</h5>
+                <div class="d-flex mb-4">
+                    <img src="Assets/smallcause1.png" alt="Post Thumbnail">
+                    <div class="ms-3">
+                        <p class="mb-0">This is a Post Format Donec Neque N</p>
+                        <small>15 Mar 2015</small>
+                    </div>
+                </div>
+                <div class="d-flex mb-4">
+                    <img src="Assets/smallcause2.png" alt="Post Thumbnail">
+                    <div class="ms-3">
+                        <p class="mb-0">This is a Post Format Donec Neque N</p>
+                        <small>15 Mar 2015</small>
+                    </div>
+                </div>
+                <div class="d-flex mb-4">
+                    <img src="Assets/smallcause3.png" alt="Post Thumbnail">
+                    <div class="ms-3">
+                        <p class="mb-0">This is a Post Format Donec Neque N</p>
+                        <small>15 Mar 2015</small>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Archives Section -->
+            <div class="archives mt-5 text-dark ">
+                <h5>From Archives</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> January (20)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> February (30)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> March (25)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> April (45)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> May (10)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> June (45)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> July (10)</a></li> 
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> August (45)</a></li>
+                    <li class="mb-2"><a href="#"><i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i> September (10)</a></li>             
+                   </ul>
+            </div>
+            <div class="upcoming mt-5 mb-1">
+              <h5>Upcoming Events</h5>
+              <div id="customEventCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators custom-indicators">
+                    <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            
+                <!-- Carousel Items -->
+                <div class="carousel-inner mt-5">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img src="Assets/event2.png" class="card-img-top" alt="Event Image">
+                                <div class="custom-event-date">AUG<br>17</div>
+                            </div>
+                            <div class="custom-carousel-capption">
+                                <h5 class="custom-card-title">Organizing Disease Event to Get Good Donation</h5>
+                                <p class="custom-card-description">Donec varius ultrices purus. Nullam sit amet sapien tortorenean tincidunt.</p>
+                                <a href="#" class="btn custom-btn-more">More</a>
+                                <a href="#" class="btn btn-primary">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img src="Assets/event4.png" class="card-img-top" alt="Event Image">
+                                <div class="custom-event-date">SEP<br>10</div>
+                            </div>
+                            <div class="custom-carousel-capption">
+                                <h5 class="custom-card-title">Community Health Outreach</h5>
+                                <p class="custom-card-description">Aliquam erat volutpat. Nam vel ultricies velit, ac pellentesque ligula.</p>
+                                <a href="#" class="btn custom-btn-more">More</a>
+                                <a href="#" class="btn btn-primary">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img src="Assets/event4.png" class="card-img-top" alt="Event Image">
+                                <div class="custom-event-date">OCT<br>22</div>
+                            </div>
+                            <div class="custom-carousel-capption">
+                                <h5 class="custom-card-title">Charity Walk for a Cause</h5>
+                                <p class="custom-card-description">Vestibulum at erat purus. Integer nec varius metus, nec fermentum ipsum.</p>
+                                <a href="#" class="btn custom-btn-more">More</a>
+                                <a href="#" class="btn btn-primary">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#customEventCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#customEventCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            <h5 class="mb-4 mt-5">TAG CLOUD</h5>
+            <div class="d-flex flex-wrap">
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">ACTIVITY</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">CHARITY</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">VIDEO</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">EDUCATION</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">DONATE</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">HELPING</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">HUMAN</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">DONATE</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">FOODS</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">BOOKS</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">CLOTHS</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">HOME</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">ADOPTION</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary m-1">HUMAN</a>
+            </div>
+  
+            <div id="customEventCarousel" class="carousel slide" data-bs-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators custom-indicators">
+                  <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#customEventCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+          
+              <!-- Carousel Items -->
+              <div class="carousel-inner mt-5 mb-1">
+                  <div class="carousel-item active">
+                      <div class="card">
+                          <div class="position-relative">
+                              <img src="Assets/event2.png" class="card-img-top" alt="Event Image">
+                              <div class="custom-event-date">AUG<br>17</div>
+                          </div>
+                          <div class="custom-carousel-capption">
+                              <h5 class="custom-card-title">Organizing Disease Event to Get Good Donation</h5>
+                              <p class="custom-card-description">Donec varius ultrices purus. Nullam sit amet sapien tortorenean tincidunt.</p>
+                              <a href="#" class="btn custom-btn-more">More</a>
+                              <a href="#" class="btn btn-primary">Facebook</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="card">
+                          <div class="position-relative">
+                              <img src="Assets/event4.png" class="card-img-top" alt="Event Image">
+                              <div class="custom-event-date">SEP<br>10</div>
+                          </div>
+                          <div class="custom-carousel-capption">
+                              <h5 class="custom-card-title">Community Health Outreach</h5>
+                              <p class="custom-card-description">Aliquam erat volutpat. Nam vel ultricies velit, ac pellentesque ligula.</p>
+                              <a href="#" class="btn custom-btn-more">More</a>
+                              <a href="#" class="btn btn-primary">Facebook</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="card">
+                          <div class="position-relative">
+                              <img src="Assets/event4.png" class="card-img-top" alt="Event Image">
+                              <div class="custom-event-date">OCT<br>22</div>
+                          </div>
+                          <div class="custom-carousel-capption">
+                              <h5 class="custom-card-title">Charity Walk for a Cause</h5>
+                              <p class="custom-card-description">Vestibulum at erat purus. Integer nec varius metus, nec fermentum ipsum.</p>
+                              <a href="#" class="btn custom-btn-more">More</a>
+                              <a href="#" class="btn btn-primary">Facebook</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#customEventCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#customEventCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <!-- Gallery Container using Bootstrap Grid System -->
+  <div class="container">
+    <div class="row mt-5">
+        <!-- Gallery Items (First Row) -->
+         
+         <h5 class="mb-4 mt-5">Gallery Widgets</h5>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <img src="Assets/au1.png" alt="Gallery Image 1" class="img-fluid">
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <img src="Assets/au2.png" alt="Gallery Image 2" class="img-fluid">
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <img src="Assets/pizza.png" alt="Gallery Image 3" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+        <!-- Gallery Items (Second Row) -->
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <img src="Assets/africa.png" alt="Gallery Image 4" class="img-fluid">
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <img src="Assets/pizza.png" alt="Gallery Image 5" class="img-fluid">
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <img src="Assets/africa.png" alt="Gallery Image 6" class="img-fluid">
+        </div>
+    </div>
+  </div>
+  
+        </div>
+    
+  
+       
+          
+  
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- Section -->
+<section class="boi">
+    <div class="container">
+      <h2>CHANGE THEIR WORLD. CHANGE <br> YOURS. THIS CHANGES EVERYTHING.</h2>
+      <div>
+        <a href="#" class="btn-custom">BECOME VOLUNTEER</a>
+        <div class="or-divider">OR</div>
+        <a href="#" class="btn-custom">DONATE FOR CAUSE</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer bg-dark text-white p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>ABOUT CHARITY</h4>
+                <p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet sem sit amet.</p>
+            </div>
+            <div class="col-md-3">
+                <h4>QUICK LINKS</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Causes</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Legal Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>NEWSLETTER SIGNUP</h4>
+                <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
+                    <button type="submit" class="btn btn-primary  bg-warning">Go</button>
+                  </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <h4>CONTACT US</h4>
+                <address>
+                    Address: 51 Sherbrooke W., Montreal, Quebec, Canada<br>
+                    Phone: +1 514 000 0000<br>
+                    Email: info@charitytheme.com
+                </address>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright">
+                    Copyright 2019. All Rights Reserved by Charity Theme. Designed by WPlook Themes
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+   
+</body>
+</html>
